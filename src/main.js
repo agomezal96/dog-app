@@ -1,6 +1,6 @@
-import getBreeds from '../utils/getBreeds.js';
-import capitalizeBreed from '../utils/capitalizeBreed.js';
-import getDogImage from '../utils/getDogImage.js';
+import getBreeds from './utils/getBreeds.js';
+import capitalizeBreed from './utils/capitalizeBreed.js';
+import getDogImage from './utils/getDogImage.js';
 
 const selector = document.getElementById('dog-selector');
 
