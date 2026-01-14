@@ -1,6 +1,8 @@
+const BREEDS_URL = 'https://dog.ceo/api/breeds/list/all'
+
 export default async function getBreeds() {
   try {
-    const response = await fetch('https://dog.ceo/api/breeds/list/all');
+    const response = await fetch(BREEDS_URL);
 
     const data = await response.json();
 
