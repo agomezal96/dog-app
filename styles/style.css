@@ -1,0 +1,36 @@
+:root {
+  --brand-100: #fee5d9;
+  --brand-200: #fdcbb3;
+  --brand-300: #fdb28c;
+  --brand-400: #fc9866;
+  --brand-500: #fb7e40;
+  --brand-600: #c96533;
+  --brand-700: #974c26;
+  --brand-800: #64321a;
+  --brand-900: #32190d;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--brand-800);
+    margin: 0;
+    background-color: var(--brand-100);
+}
+
+header {
+  background-color: var(--brand-500);
+  padding: 1rem;
+  color: #ffffff;
+  text-align: center;
+
+  h1 {
+    font-weight: 500;
+    font-size: 2rem;
+  }
+}
+
+main {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+}

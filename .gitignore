@@ -1,0 +1,12 @@
+*.log
+*.tmp
+*~
+
+node_modules/
+vendor/
+dist/
+build/
+
+.DS_Store
+Thumbs.db
+.cache/
