@@ -12,9 +12,9 @@
 
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
-    color: var(--brand-800);
-    margin: 0;
-    background-color: var(--brand-100);
+  color: var(--brand-800);
+  margin: 0;
+  background-color: var(--brand-100);
 }
 
 header {
@@ -30,7 +30,34 @@ header {
 }
 
 main {
-    text-align: center;
+  margin-top: 2rem;
+  text-align: center;
+
+  h2 {
     font-size: 1.6rem;
-    margin-top: 2rem;
+    font-weight: 400;
+  }
+}
+
+select {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: var(--brand-200);
+  border-radius: 16px;
+  border-color: var(--brand-400);
+  outline: none;
+
+  &:focus {
+    border-color: var(--brand-700);
+    outline: none;
+  }
+
+  &:focus-visible {
+    border-color: var(--brand-800);
+    outline: none;
+  }
+
+  &:hover {
+    border-color: var(--brand-600);
+  }
 }
