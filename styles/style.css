@@ -39,6 +39,7 @@ main {
   h2 {
     font-size: 1.6rem;
     font-weight: 400;
+    margin: 0 1rem;
   }
 
   h3 {
@@ -73,6 +74,12 @@ select {
 
 img {
   max-width: 600px;
+}
+
+@media (width <= 480px) {
+  img {
+    max-width: 250px;
+  }
 }
 
 .dog-display {
