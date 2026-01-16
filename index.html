@@ -9,7 +9,7 @@
     href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
     rel="stylesheet"
   />
-  <link rel="icon" type="image/png" href="./src/images/favicon.png" />
+  <link rel="icon" type="image/png" href="./src/images/cartoon-dog.png" />
   <script src="src/main.js" type="module" defer></script>
 </head>
 
@@ -19,11 +19,24 @@
   </header>
   <main>
     <h2>What beautiful dog do you want to see? 🐕</h2>
-    <img src="./src/images/favicon.png" alt="Cartoon of a dog" width="50" class="spinner"/>
     <p>Please, select a breed</p>
     <select name="dog-selector" id="dog-selector" title="dog-selector">
       <option value="" selected>Select a breed</option>
     </select>
-    <div class="dog-display"></div>
+    <div class="dog-display frame hidden">
+      <div class="dog-spinner hidden">
+        <img
+          src="src/images/cartoon-dog.png"
+          alt="loading spinner"
+          class="spinner"
+          width="60"
+        />
+        <p>Looking for a puppy...</p>
+      </div>
+
+      <div class="dog-image hidden">
+        <img src="src/images/cartoon-dog.png" alt="Cartoon of a dog" width="200" />
+      </div>
+    </div>
   </main>
 </body>
