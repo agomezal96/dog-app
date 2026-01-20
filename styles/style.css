@@ -22,7 +22,7 @@ body {
 header {
   background-color: var(--brand-500);
   padding: 1rem;
-  color: #ffffff;
+  color: var(--brand-800);
   text-align: center;
 
   h1 {
